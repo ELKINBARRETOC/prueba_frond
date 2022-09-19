@@ -43,10 +43,8 @@ export class FooterComponent implements OnInit {
       label: 'NewsLetter',
       submenu:[
                 {label: 'Sign up to receive the Fetch! Family Newsletter', href: ''}, 
-                {label: 'input', href: 'Email adress'},
-                {label: 'input', href: 'Email adress'},
-                {label: 'input', href: 'Email adress'},
-                {label: 'input', href: 'Email adress'},
+                {label: '@', href: ''},
+                {label: '.', href: ''},
               ]
     },
   ];
