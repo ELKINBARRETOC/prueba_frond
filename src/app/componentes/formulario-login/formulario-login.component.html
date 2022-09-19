@@ -1,0 +1,37 @@
+<form autocomplete="off"  [formGroup]="formulario" (ngSubmit) = "login()">
+    
+    <div class="mensaje cargando" *ngIf="cargando"><small>Cargando...</small></div>
+
+    <div class="mensaje error" *ngIf="error_login"><small>Ha ocurrido un error</small></div>
+    
+
+    <div class="borde-izquierdo-rojo">
+        <h5>Bienvenido</h5>
+    </div>
+
+    <div>
+        <!--<label>Usuario</label>-->
+        <small *ngIf="emailInvalido" class="mensaje-requerido">Este campo es requerido.</small>
+        <input type="text" placeholder="EMAIL"
+                name="email"
+                formControlName="email"
+                [class.invalido] = "emailInvalido">
+                
+    </div>
+
+    <div>
+        <!--<label>Contrasena</label>-->
+        <small *ngIf="contrasenaInvalido" class="mensaje-requerido">Este campo es requerido.</small>
+        <input type="password" placeholder="CONTRASEÑA"
+                name="contrasena"
+                formControlName="contrasena"
+                [class.invalido] = "contrasenaInvalido">
+    </div>
+
+    <div><label class="olvide-contrasena">¿Olvidaste tu contraseña?</label></div>
+
+    <div class="contenido-centrado"><button type="submit" [disabled]="!formulario.valid || cargando">Iniciar Sesión</button></div>
+
+    <div id="div-registrarse" class="contenido-centrado"><span>Aún no tengo cuenta</span><a href="#">Registrarse</a></div>
+
+</form>

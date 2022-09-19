@@ -1,0 +1,138 @@
+
+
+form{
+    padding: 20px;
+    font-family: Gibson, sans-serif;
+    width: 100%;
+}
+
+.mensaje{
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    right: 8px;
+    padding: 10px;
+    text-align: center;
+    font-family: Gibson, 'Segoe UI', sans-serif;
+    color: white;
+    border-radius: 4px;
+}
+
+.cargando{
+    background-color: #4487FF;
+}
+
+.error{
+    
+    background-color: #FEB53A;
+}
+
+form > div{
+    margin-bottom: 10px;
+}
+
+div.borde-izquierdo-rojo{
+
+    padding: 4px 33px !important;
+    margin-bottom: 46px !important;
+    border-left: 8px solid #ff6752;
+}
+
+
+h5{
+    margin: 0px;
+    color: #4D4F5C;
+    font-size: 25px;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+
+}
+
+/*label{
+    display: block;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-bottom: 8px;
+}*/
+
+label.olvide-contrasena{
+
+    display: block;
+    font-size: 14px;
+    color: #A4AFB7;
+    margin-top: 37px;
+    text-align: right;
+    font-weight:normal;
+    margin-bottom: 46px;
+}
+
+input[type='text'], input[type='password']{
+    border: none;
+    outline: none;
+    color:#A4AFB7;
+    font-size: 18px;
+    width: calc(100% - 60px);
+    padding: 11px 29px 13px 29px;
+    box-shadow: 2px 3px 4px #00000029;
+}
+
+small{
+    display: block;
+}
+
+small.mensaje-requerido{
+
+    color:#ff6752;
+}
+
+.invalido{
+
+    /*box-shadow: 2px 3px 4px #ff6752 !important;*/
+}
+
+.contenido-centrado{
+
+    text-align: center;
+}
+
+button{
+
+    border: none;
+    cursor:pointer;
+    font-size: 20px;
+    color: #F8F8F8;
+    font-weight: bold;
+    padding: 24px 43px;
+    border-radius: 38px;
+    text-transform: uppercase;
+    background-color: #4487FF;
+    box-shadow: 0px 3px 6px #b1b1b1;
+    /*box-shadow: 0px 3px 6px #2c1dad29;*/
+}
+
+button:hover{
+    background-color: #015F91;
+}
+
+button:disabled{
+    background-color: #A4AFB7;
+}
+
+#div-registrarse{
+    font-size: 14px;
+    margin-top: 36px;
+    text-transform: uppercase;
+}
+
+
+#div-registrarse span{
+    color: #A4AFB7;
+    margin-right: 4px;
+}
+
+
+#div-registrarse a{
+    color: #015F91;
+    text-decoration: none;
+}

@@ -1,0 +1,52 @@
+section{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    align-items: center;
+    margin-top: 248px;
+}
+
+section > aside{
+
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+    align-items: center;
+    justify-items: center;
+
+}
+
+section > aside:last-child{
+    height: 100%;
+    justify-items: right;
+    padding-right: 80px;
+}
+
+#contenedor-avatar{
+
+    width: 540px;
+    height: 540px;
+    border-radius: 50%;
+    background-color: #FFE530;
+
+}
+
+#avatar-imagen{
+
+    
+    width: 600px;
+    height: 700px;
+    position: absolute;
+    top: 208px;
+    right: 50px;;
+    /*border: 1px solid;*/
+    overflow: hidden;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    text-align: center;
+}
+
+#avatar-imagen > img{
+    position: absolute;
+    right: 0px;
+}

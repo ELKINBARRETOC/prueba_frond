@@ -1,0 +1,59 @@
+section{
+    padding: 20px 80px;
+    display: grid;
+    grid-template-columns: 10% 90%;
+    grid-template-rows:100% ;
+    align-items: center;
+    background-color: #FE6845;
+    font-family: 'Open Sans','Segoe UI', sans-serif;
+    font-size: 24px;
+}
+
+#contenedor-avatar{
+
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+    background-color: #fff;
+
+}
+
+#avatar-imagen{
+
+    width: 70%;
+    height: 70%;
+    background-image: url('../../../assets/img/pet.svg');
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: contain;
+
+}
+
+section>aside:last-child{
+    justify-content: right;
+}
+
+
+nav{
+    text-align: right;
+}
+nav  li{
+
+    display: inline-block;
+    list-style: none;
+    margin-right: 30px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu-activo{
+    font-weight: bold;
+}

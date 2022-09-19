@@ -1,0 +1,31 @@
+div.container{
+
+    padding: 0px 84px;
+}
+h1{
+    font-family: 'Open Sans', 'Segoe UI', sans-serif;
+    font-size: 84px;
+}
+
+p{
+    font-family: 'Open Sans', 'Segoe UI', sans-serif;
+    font-size: 24px;
+}
+button{
+
+    border: none;
+    cursor:pointer;
+    font-size: 20px;
+    color: #F8F8F8;
+    font-weight: bold;
+    padding: 24px 43px;
+    border-radius: 38px;
+    background-color: #4487FF;
+    box-shadow: 0px 3px 6px #b1b1b1;
+    font-family: 'Open Sans', 'Segoe UI', sans-serif;
+    /*box-shadow: 0px 3px 6px #2c1dad29;*/
+}
+
+button:hover{
+    background-color: #015F91;
+}
