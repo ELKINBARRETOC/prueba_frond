@@ -8,12 +8,10 @@
     </aside>
     <aside>
         <nav>
-            <ul >
-                <li routerLinkActive="menu-activo"><a [routerLink]="['location']">Location</a></li>
-                <li routerLinkActive="menu-activo"><a [routerLink]="['blog']">Blog</a></li>
-                <li routerLinkActive="menu-activo"><a [routerLink]="['services']">Services</a></li>
-                <li routerLinkActive="menu-activo"><a [routerLink]="['about']">About Us</a></li>
-                <li routerLinkActive="menu-activo"><a [routerLink]="['franchise']">Franchise with Us</a></li>
+            <ul>
+                <li routerLinkActive="menu-activo" *ngFor = "let item of menu_items">
+                    <a [routerLink]="[item.href]" [title]="item.label">{{item.label}}</a>
+                </li>
             </ul>
         </nav>
     </aside>

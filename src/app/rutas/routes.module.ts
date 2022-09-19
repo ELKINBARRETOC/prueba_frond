@@ -19,8 +19,8 @@ const APP_ROUTES: Routes = [
       component: HomeComponent,
       children:[
         {
-          path:'*',
-          component: LocationComponent
+          path:'',
+          component: ServicesComponent
         },
         {
           path:'location',
