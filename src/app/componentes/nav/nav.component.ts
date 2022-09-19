@@ -27,7 +27,7 @@ export class NavComponent implements OnInit {
     },
     {
       label: 'Franchise with Us',
-      href: 'Franchise'
+      href: 'franchise'
     }
   ];
 

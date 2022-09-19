@@ -18,6 +18,7 @@ import { BlogComponent } from './componentes/paginas/blog/blog.component';
 import { ServicesComponent } from './componentes/paginas/services/services.component';
 import { FranchiseComponent } from './componentes/paginas/franchise/franchise.component';
 import { NofoundComponent } from './componentes/paginas/nofound/nofound.component';
+import { FooterComponent } from './componentes/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { NofoundComponent } from './componentes/paginas/nofound/nofound.componen
     BlogComponent,
     ServicesComponent,
     FranchiseComponent,
-    NofoundComponent
+    NofoundComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

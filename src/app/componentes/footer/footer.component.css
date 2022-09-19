@@ -1,0 +1,34 @@
+footer{
+    padding: 40px 42px;
+    font-family: 'Open Sans', 'Segoe UI', sans-serif;
+    background-color: #FE6845;
+}
+footer>ul>li{
+    display: inline-block;
+    width: 25%;
+}
+
+li{
+    list-style: none;
+}
+
+li > ul{
+    padding-left: 0px;
+}
+
+li > h5{
+
+    color: #FFE530;
+    font-size: 24px;
+}
+
+li > ul > li{
+
+    padding: 8px 4px;
+}
+
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 24px;
+}

@@ -1,0 +1,10 @@
+<footer>
+    <ul>
+        <li *ngFor="let item of menu_items">
+            <h5>{{item.label}}</h5>
+            <ul>
+                <li *ngFor="let subitem of item.submenu"><a [routerLink]="[subitem.href]" [title]="subitem.label">{{subitem.label}}</a></li>
+            </ul>
+        </li>
+    </ul>
+</footer>
