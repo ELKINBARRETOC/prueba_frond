@@ -4,6 +4,8 @@ section{
     grid-template-rows: 100%;
     align-items: center;
     margin-top: 248px;
+    margin-bottom: 124px;
+    font-family: 'Open Sans', 'Segoe UI', sans-serif;
 }
 
 section > aside{
@@ -21,6 +23,8 @@ section > aside:last-child{
     justify-items: right;
     padding-right: 80px;
 }
+
+
 
 #contenedor-avatar{
 
@@ -49,4 +53,42 @@ section > aside:last-child{
 #avatar-imagen > img{
     position: absolute;
     right: 0px;
+}
+
+
+
+#seccion2{
+
+    margin-top: 0px !important;
+
+}
+
+
+#seccion2 > aside:first-child > div{
+
+    padding: 0px 20%;
+
+}
+
+
+#seccion2 h1{
+
+    color: #FE6845;
+    font-size: 48px;
+}
+#seccion2 p{
+
+    color: #808080;
+    font-size: 24px;
+}
+
+#seccion2 h4{
+
+    color: #FE6845;
+    font-size: 24px;
+}
+
+#seccion2 div.container-textbox{
+
+    width: 60%;
 }
