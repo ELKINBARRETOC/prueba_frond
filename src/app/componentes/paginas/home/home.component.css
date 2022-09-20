@@ -136,5 +136,88 @@ section > aside:last-child{
 
 
 
+/*===== Seccion 4 =====*/
+#seccion4{
+
+    margin-top: 0px !important;
+
+}
+
+
+#seccion4 > aside:last-child{
+
+    align-items: start;
+
+}
+
+#seccion4 > aside:last-child > div{
+
+    padding: 0px 20%;
+
+}
+
+
+
+#seccion4 > aside:first-child > div{
+    
+    width: 70%;
+    height: 100%;
+
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+
+}
+#seccion4 > aside:first-child > div > div{
+    
+    width: 100%;
+    height: 100%;
+
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+    align-items: center;
+
+}
+#seccion4 > aside:first-child > div >  div.align-right{
+    
+    justify-items: right;
+}
+#seccion4 > aside:first-child > div >  div.align-left{
+    
+    justify-items: left;
+}
+
+
+
+
+#seccion4 h1{
+
+    color: #FE6845;
+    font-size: 48px;
+}
+
+#seccion4 p{
+
+    color: #808080;
+    font-size: 24px;
+}
+
+#seccion4 h4{
+
+    color: #FE6845;
+    font-size: 24px;
+}
+
+#seccion4 div.container-textbox{
+
+    width: 60%;
+}
+
+
+
+
+
 /*===== Seccion 3 =====*/
 
