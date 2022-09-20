@@ -20,6 +20,7 @@ import { FranchiseComponent } from './componentes/paginas/franchise/franchise.co
 import { NofoundComponent } from './componentes/paginas/nofound/nofound.component';
 import { FooterComponent } from './componentes/footer/footer.component';
 import { TextboxComponent } from './componentes/textbox/textbox.component';
+import { ItemboxComponent } from './componentes/itembox/itembox.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { TextboxComponent } from './componentes/textbox/textbox.component';
     FranchiseComponent,
     NofoundComponent,
     FooterComponent,
-    TextboxComponent
+    TextboxComponent,
+    ItemboxComponent
   ],
   imports: [
     BrowserModule,

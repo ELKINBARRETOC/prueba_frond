@@ -57,6 +57,10 @@ section > aside:last-child{
 
 
 
+
+
+
+/*===== Seccion 2 =====*/
 #seccion2{
 
     margin-top: 0px !important;
@@ -71,11 +75,46 @@ section > aside:last-child{
 }
 
 
+#seccion2 > aside:last-child > div{
+    
+    width: 100%;
+    height: 100%;
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    align-items: center;
+
+}
+#seccion2 > aside:last-child > div > div{
+    
+    width: 100%;
+    height: 100%;
+
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+    align-items: center;
+
+}
+#seccion2 > aside:last-child > div >  div.align-right{
+    
+    justify-items: right;
+}
+#seccion2 > aside:last-child > div >  div.align-left{
+    
+    justify-items: left;
+}
+
+
+
+
 #seccion2 h1{
 
     color: #FE6845;
     font-size: 48px;
 }
+
 #seccion2 p{
 
     color: #808080;
@@ -92,3 +131,10 @@ section > aside:last-child{
 
     width: 60%;
 }
+
+
+
+
+
+/*===== Seccion 3 =====*/
+
