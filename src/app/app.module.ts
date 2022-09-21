@@ -21,6 +21,8 @@ import { NofoundComponent } from './componentes/paginas/nofound/nofound.componen
 import { FooterComponent } from './componentes/footer/footer.component';
 import { TextboxComponent } from './componentes/textbox/textbox.component';
 import { ItemboxComponent } from './componentes/itembox/itembox.component';
+import { AvatarComponent } from './componentes/avatar/avatar.component';
+import { CardComponent } from './componentes/card/card.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +39,9 @@ import { ItemboxComponent } from './componentes/itembox/itembox.component';
     NofoundComponent,
     FooterComponent,
     TextboxComponent,
-    ItemboxComponent
+    ItemboxComponent,
+    AvatarComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,

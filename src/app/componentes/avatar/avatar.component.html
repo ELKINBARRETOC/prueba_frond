@@ -1,0 +1,9 @@
+<div class="container" [ngStyle] = "{'height.px':config.width*1.35}">
+    
+    <div id="circulo" [ngStyle] = "{'width.px':config.width, 'height.px':config.width}"></div>
+
+    <div id="avatar-imagen" [ngStyle] = "{'width.px':config.width, 'border-bottom-left-radius.px':config.width, 'border-bottom-right-radius.px':config.width}">
+        <img [src]="'../../../../assets/img/'+config.img+'.png'">
+    </div>
+
+</div>
