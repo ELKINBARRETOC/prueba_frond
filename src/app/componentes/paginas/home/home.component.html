@@ -2,7 +2,7 @@
 <app-nav></app-nav>
 
 <!--Seccion 1: -->
-<section>
+<section id="seccion1">
     <aside>
         <div>
             <router-outlet></router-outlet>
@@ -10,12 +10,6 @@
     </aside>
 
     <aside>
-        <!--<div id="contenedor-avatar">
-        </div>
-        <div id="avatar-imagen">
-            <img src="../../../../assets/img/labrador.png">
-        </div>-->
-
         <app-avatar [config]="{width:540, color: '#FFE530', img:'labrador'}"></app-avatar>
     </aside>
 </section>
@@ -68,7 +62,7 @@
 
 <!--Seccion 5-->
 <section id="seccion5">
-    <app-avatar [config]="{width:150, color: '#FFE530', img:'perro'}"></app-avatar>
+    <app-card></app-card>
 </section>
 
 

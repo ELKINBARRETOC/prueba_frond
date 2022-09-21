@@ -1,0 +1,69 @@
+section{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 100%;
+    
+    padding: 20px 20px 20px 0px;
+
+    background-color: #4487FF;
+
+    border-radius: 20px;
+
+
+}
+
+section > aside{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+}
+
+section > aside:first-child > div{
+    width: 100%;
+    height: 100%;
+
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+    align-items: center;
+    justify-items: center;
+}
+
+h1{
+
+    margin: 0px;
+    color: #FFE530;
+
+    font-family: Comfortaa, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+
+p{
+    color: #F8F8F8;
+
+    font-family: 'Open Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 32px;
+    font-weight: regular;
+}
+
+button{
+
+    border: none;
+    cursor:pointer;
+    font-size: 20px;
+    color: #FE6845;
+    font-weight: bold;
+    padding: 24px 43px;
+    border-radius: 38px;
+    background-color: #F8F8F8;
+    box-shadow: 0px 3px 6px rgba(0,0,0,.2);
+    font-family: 'Open Sans', 'Segoe UI', sans-serif;
+    /*box-shadow: 0px 3px 6px #2c1dad29;*/
+}
+
+button:hover{
+    background-color: #015F91;
+}
+

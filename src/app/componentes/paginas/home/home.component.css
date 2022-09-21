@@ -1,4 +1,5 @@
-section{
+
+/*section{
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 100%;
@@ -24,46 +25,61 @@ section > aside:last-child{
     align-items: end;
     padding-right: 80px;
     position: relative;
+}*/
+
+
+#seccion1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 124px;
+    font-family: 'Open Sans', 'Segoe UI', sans-serif;
 }
 
+#seccion1 > aside{
 
-
-#contenedor-avatar{
-
-    width: 540px;
-    height: 540px;
-    border-radius: 50%;
-    background-color: #FFE530;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+    align-items: center;
+    justify-items: center;
 
 }
 
-#avatar-imagen{
-
-    
-    width: 600px;
-    height: 700px;
-    position: absolute;
-    /*top: 208px;*/
-    bottom: 0;
-    right: 50px;;
-    /*border: 1px solid;*/
-    overflow: hidden;
-    border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 50%;
-    text-align: center;
+#seccion1 > aside:last-child{
+    height: 100%;
+    justify-items: right;
+    align-items: end;
+    padding-right: 80px;
 }
-
-#avatar-imagen > img{
-    position: absolute;
-    right: 0px;
-}
-
 
 
 
 
 
 /*===== Seccion 2 =====*/
+
+#seccion2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    align-items: start;
+    margin-top: 150px;
+    margin-bottom: 124px;
+    font-family: 'Open Sans', 'Segoe UI', sans-serif;
+}
+
+#seccion2 > aside{
+
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+    align-items: center;
+    justify-items: center;
+
+}
 
 #seccion2 > aside:first-child > div{
 
@@ -135,19 +151,42 @@ section > aside:last-child{
 
 /*===== Seccion 4 =====*/
 
-#seccion4 > aside:last-child{
+#seccion4{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 124px;
+    font-family: 'Open Sans', 'Segoe UI', sans-serif;
+}
 
+#seccion4 > aside{
+
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+}
+
+
+#seccion4 > aside:first-child{
+    height: 100%;
     align-items: start;
+    justify-items: center;
+}
 
+#seccion4 > aside:last-child{
+    height: 100%;
+    justify-items: right;
+    padding-right: 80px;
+    align-items: start;
 }
 
 #seccion4 > aside:last-child > div{
 
-    padding: 0px 20%;
+    padding: 0px 10%;
 
 }
-
-
 
 #seccion4 > aside:first-child > div{
     
@@ -160,6 +199,7 @@ section > aside:last-child{
     align-items: center;
 
 }
+
 #seccion4 > aside:first-child > div > div{
     
     width: 100%;
@@ -171,10 +211,12 @@ section > aside:last-child{
     align-items: center;
 
 }
+
 #seccion4 > aside:first-child > div >  div.align-right{
     
     justify-items: right;
 }
+
 #seccion4 > aside:first-child > div >  div.align-left{
     
     justify-items: left;
@@ -211,7 +253,15 @@ section > aside:last-child{
 
 
 /*===== Seccion 5 =====*/
+#seccion5{
 
+    width: 70%;
+    padding: 20px 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    margin-bottom: 124px;
+}
 
 app-avatar{
     height: 100%;

@@ -9,7 +9,9 @@ div.container{
     justify-items: center;
     align-items: center;
 
-    border-radius: 20px;;
+    border-radius: 20px;
+
+    background-color: #fff;
     box-shadow: 0px 3px 6px rgba(0,0,0,.2);
 }
 
