@@ -255,10 +255,7 @@ section > aside:last-child{
 /*===== Seccion 5 =====*/
 #seccion5{
 
-    width: 70%;
-    padding: 20px 40px;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 0px 150px;
     margin-top: 150px;
     margin-bottom: 124px;
 }
